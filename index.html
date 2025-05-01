@@ -91,6 +91,14 @@
       font-size: 24px;
       color: #333;
     } -->
+
+    @media screen and (max-width: 414px) {
+      .modal {
+        background: url('assets/images/website-videos-smartphone.png') no-repeat center center;
+        background-size: cover;
+      }
+    }
+    
   </style>
 </head>
 
@@ -111,11 +119,13 @@
 <script>
   let player; // Variable global para el reproductor
 
+  
+
   const videos = [
-    "pw8z12mhpAM",
-    "gvYrDza_7vk",
-    "rlFR6VoU9ys",
-    "1TD8N6SJRvc"
+    "3g3oDGuHMTc",
+    "t8HyFeROebo",
+    "mkF2yqeP9TI",
+    "Z_Tn2s3SfA0"
   ];
 
   function mostrarModal() {
